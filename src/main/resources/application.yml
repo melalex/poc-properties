@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    platform: h2
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+logging:
+  level: debug
